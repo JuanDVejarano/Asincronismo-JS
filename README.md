@@ -14,24 +14,56 @@ El proyecto tiene dependencias descargadas por npm. Para correr algunos archivos
 npm i
 ```
 
+En el proyecto se instalaron las siguientes dependencias
+
+```
+npm i xmlhttprequest
+npm i node-fetch
+```
+
 ## Definicones
 
 ### CallBacks
 
-Son funciones que se pasan como argumento a otra función. Puedes ver ejemplos en el archivo **callBack.js**
+Son funciones que se pasan como argumento a otra función. Puedes ver ejemplos en el archivo **callBack/example.js**
 
-- para correr el programa desde el terminal
+- para correr el programa desde el terminal usar el siguiente comando
 
 ```
 npm run callback
 ```
 
-### fetchData
+### fetchData con CallBacks
 
-Es una función nativa de JS que nos permite hacer llamados a API's. Hay un ejemplo en el archivo indexFetchData.js. En ese ejemplo se usan callbacks para hacer peticiones a una API, lo cual no es la mejor manera de manejar el asincronismo, ya que se puede caer en el Callback Hell.
+Es una función nativa de JS que nos permite hacer llamados a API's. Hay un ejemplo en el archivo **callBack/fetchData.js.** En ese ejemplo se usan callbacks para hacer peticiones a una API, lo cual no es la mejor manera de manejar el asincronismo, ya que se puede caer en el Callback Hell.
 
-- para correr el programa desde el terminal
+- para correr el programa desde el terminal usar el siguiente comando
 
 ```
 npm run callbackApi
 ```
+
+### Promise
+
+Una promesa es un objeto que representa la eventual finalización o el fracaso de una operación asíncrona. Una promesa puede estar en uno de los siguientes estados:
+
+1. Pendiente (Pending): Estado inicial, la promesa está en curso.
+2. Cumplida (Fulfilled): La operación se completó con éxito, y la promesa tiene un resultado.
+3. Rechazada (Rejected): La operación falló, y la promesa tiene un motivo de rechazo.
+
+para ver ejemplos se pueden ver en la carpeta **promise**
+
+- para correr los programa desde el terminal usar los siguientes comandos
+
+```
+npm run promise
+npm run promiseApi
+```
+
+en el archivo **promise/fetchData-post.js** podremos agregar productos al API para esto podremos cambiar los valores que estan en la constante **dataProduct** y correr el siguiente comando
+
+```
+npm run postData
+```
+
+Hara el POST al API y nos retorna el objeto que acabo de agregar

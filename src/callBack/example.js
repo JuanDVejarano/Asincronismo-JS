@@ -25,6 +25,7 @@ console.log("saludar personas y asar carnita");
 
 setTimeout(greatting, 1000, "Juan D");
 setTimeout(greatting, 1000, "Juan Jo");
+setTimeout(greatting, 1000, "Juls");
 
 // callback para asar carnita
 
