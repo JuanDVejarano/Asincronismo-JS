@@ -4,8 +4,8 @@
   "description": "Definiciones y ejemplos de asincronismo",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callBack.js",
-    "apiFetch": "node src/indexFetchData.js",
+    "callback": "node src/callBack/example.js",
+    "callbackApi": "node src/callBack/fetchData.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

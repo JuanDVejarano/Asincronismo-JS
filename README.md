@@ -33,5 +33,5 @@ Es una función nativa de JS que nos permite hacer llamados a API's. Hay un ejem
 - para correr el programa desde el terminal
 
 ```
-npm run apiFetch
+npm run callbackApi
 ```

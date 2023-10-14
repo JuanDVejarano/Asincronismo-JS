@@ -38,13 +38,13 @@ function ponerAsador(callback) {
 function ponerCarbon(callback) {
   asador = "🪨🪨🪨🪨";
   console.log(asador);
-  setTimeout(() => prenderCarbon(callback), 3000);
+  setTimeout(() => prenderCarbon(callback), 4000);
 }
 
 function prenderCarbon(callback) {
   asador = "🔥🔥🔥🔥";
   console.log(asador);
-  setTimeout(() => echarCarne(callback), 5000);
+  setTimeout(() => echarCarne(callback), 2000);
 }
 
 function echarCarne(callback) {
