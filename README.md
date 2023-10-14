@@ -23,8 +23,7 @@ Son funciones que se pasan como argumento a otra función. Puedes ver ejemplos e
 - para correr el programa desde el terminal
 
 ```
-cd Asincronismo-JS
-node src src/callBack.js
+npm run callback
 ```
 
 ### fetchData
@@ -34,6 +33,5 @@ Es una función nativa de JS que nos permite hacer llamados a API's. Hay un ejem
 - para correr el programa desde el terminal
 
 ```
-cd Asincronismo-JS
-node src/indexFetchData.js
+npm run apiFetch
 ```
