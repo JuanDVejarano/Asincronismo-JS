@@ -20,6 +20,20 @@ npm i
 
 Son funciones que se pasan como argumento a otra función. Puedes ver ejemplos en el archivo **callBack.js**
 
+- para correr el programa desde el terminal
+
+```
+cd Asincronismo-JS
+node src src/callBack.js
+```
+
 ### fetchData
 
 Es una función nativa de JS que nos permite hacer llamados a API's. Hay un ejemplo en el archivo indexFetchData.js. En ese ejemplo se usan callbacks para hacer peticiones a una API, lo cual no es la mejor manera de manejar el asincronismo, ya que se puede caer en el Callback Hell.
+
+- para correr el programa desde el terminal
+
+```
+cd Asincronismo-JS
+node src/indexFetchData.js
+```

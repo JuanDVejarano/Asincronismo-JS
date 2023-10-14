@@ -11,10 +11,23 @@ function calc(num1, num2, callback) {
   return callback(num1, num2);
 }
 
+console.log("suma y resta Resta");
 console.log(calc(3, 2, sum));
 console.log(calc(3, 2, subtract));
 
+// Callbak con para saludar con setTimeOut
+
+function greatting(name) {
+  console.log(`Hola ${name}`);
+}
+
+console.log("saludar personas y asar carnita");
+
+setTimeout(greatting, 1000, "Juan D");
+setTimeout(greatting, 1000, "Juan Jo");
+
 // callback para asar carnita
+
 let asador = "🫕";
 
 function ponerAsador(callback) {
@@ -23,7 +36,7 @@ function ponerAsador(callback) {
 }
 
 function ponerCarbon(callback) {
-  asador = "🪨🪨🪨🪨🪨";
+  asador = "🪨🪨🪨🪨";
   console.log(asador);
   setTimeout(() => prenderCarbon(callback), 3000);
 }
@@ -46,11 +59,3 @@ function comerCarnita(callback) {
 }
 
 ponerAsador(comerCarnita);
-
-// Callbak con para saludar con setTimeOut
-
-function greatting(name) {
-  console.log(`Hola ${name}`);
-}
-
-setTimeout(greatting, 2000, "Juan D");
