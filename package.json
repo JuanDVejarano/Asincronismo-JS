@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ToyekaXV/Asincronismo-JS/issues"
   },
-  "homepage": "https://github.com/ToyekaXV/Asincronismo-JS#readme"
+  "homepage": "https://github.com/ToyekaXV/Asincronismo-JS#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
