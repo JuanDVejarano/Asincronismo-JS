@@ -1,0 +1,33 @@
+{
+  "name": "asincronismo-js",
+  "version": "1.0.0",
+  "description": "Definiciones y ejemplos de asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callBack/example.js",
+    "callbackApi": "node src/callBack/fetchData.js",
+    "promise": "node src/promise/example.js",
+    "promiseApi": "node src/promise/fetchData.js",
+    "postData": "node src/promise/fetchData-post.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToyekaXV/Asincronismo-JS.git"
+  },
+  "keywords": [
+    "Asincrinismo",
+    "JavaScript"
+  ],
+  "author": "Juan D Vejarano",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/ToyekaXV/Asincronismo-JS/issues"
+  },
+  "homepage": "https://github.com/ToyekaXV/Asincronismo-JS#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
+}
