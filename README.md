@@ -78,3 +78,11 @@ Es una declaracion qeu define una funcion asincrona que retorna un objeto
 npm run async
 npm run asyncApi
 ```
+
+### Generators
+
+Es una función especial que puede ser pausada y resumida, permitiendo una ejecución incremental. A diferencia de una función regular que se ejecuta completamente cada vez que es llamada, un generador puede detener su ejecución en ciertos puntos y luego ser reanudado desde donde se detuvo.
+
+```
+npm run generator
+```
