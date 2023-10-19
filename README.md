@@ -53,7 +53,7 @@ Una promesa es un objeto que representa la eventual finalización o el fracaso d
 
 para ver ejemplos se pueden ver en la carpeta **promise**
 
-- para correr los programa desde el terminal usar los siguientes comandos
+- para correr los programas desde el terminal usar los siguientes comandos
 
 ```
 npm run promise
@@ -67,3 +67,22 @@ npm run postData
 ```
 
 Hara el POST al API y nos retorna el objeto que acabo de agregar
+
+### Funcion Async
+
+Es una declaracion qeu define una funcion asincrona que retorna un objeto
+
+- para correr los programas desde el terminal usar los siguientes comandos
+
+```
+npm run async
+npm run asyncApi
+```
+
+### Generators
+
+Es una función especial que puede ser pausada y resumida, permitiendo una ejecución incremental. A diferencia de una función regular que se ejecuta completamente cada vez que es llamada, un generador puede detener su ejecución en ciertos puntos y luego ser reanudado desde donde se detuvo.
+
+```
+npm run generator
+```
