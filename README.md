@@ -76,5 +76,5 @@ Es una declaracion qeu define una funcion asincrona que retorna un objeto
 
 ```
 npm run async
-npm run promiseApi
+npm run asyncApi
 ```

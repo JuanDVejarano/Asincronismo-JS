@@ -10,6 +10,7 @@
     "promiseApi": "node src/promise/fetchData.js",
     "postData": "node src/promise/fetchData-post.js",
     "async": "node src/async/example.js",
+    "asyncApi": "node src/async/fetchData.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
